@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'chadperson';
+  src: url('../font/chadperson.eot%3F75764316');
+  src: url('../font/chadperson.eot%3F75764316') format('embedded-opentype'),
+       url('../font/chadperson.woff%3F75764316') format('woff'),
+       url('../font/chadperson.ttf%3F75764316') format('truetype'),
+       url('../font/chadperson.svg%3F75764316') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'chadperson';
+    src: url('../font/chadperson.svg?75764316#chadperson') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "chadperson";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-mail:before { content: '\e803'; } /* '' */
+.icon-right-circle:before { content: '\e821'; } /* '' */
+.icon-minus-circled:before { content: '\e802'; } /* '' */
+.icon-info-circled:before { content: '\e804'; } /* '' */
+.icon-thumbs-up:before { content: '\e805'; } /* '' */
+.icon-attention-circled:before { content: '\e806'; } /* '' */
+.icon-rss:before { content: '\e800'; } /* '' */
+.icon-phone:before { content: '\e807'; } /* '' */
+.icon-menu:before { content: '\e808'; } /* '' */
+.icon-basket:before { content: '\e809'; } /* '' */
+.icon-left-open:before { content: '\e80d'; } /* '' */
+.icon-right-open:before { content: '\e80c'; } /* '' */
+.icon-angle-circled-left:before { content: '\e80b'; } /* '' */
+.icon-angle-circled-right:before { content: '\e80a'; } /* '' */
+.icon-circle:before { content: '\e80e'; } /* '' */
+.icon-circle-empty:before { content: '\e80f'; } /* '' */
+.icon-terminal:before { content: '\e810'; } /* '' */
+.icon-facebook:before { content: '\e812'; } /* '' */
+.icon-plus-circled:before { content: '\e801'; } /* '' */
+.icon-twitter:before { content: '\e813'; } /* '' */
+.icon-youtube:before { content: '\e814'; } /* '' */
+.icon-cc:before { content: '\e817'; } /* '' */
+.icon-flickr-1:before { content: '\e815'; } /* '' */
+.icon-vimeo:before { content: '\e816'; } /* '' */
+.icon-linkedin:before { content: '\e818'; } /* '' */
+.icon-facebook-1:before { content: '\e81c'; } /* '' */
+.icon-twitter-bird:before { content: '\e81a'; } /* '' */
+.icon-vimeo-1:before { content: '\e819'; } /* '' */
+.icon-tumblr:before { content: '\e81b'; } /* '' */
+.icon-linkedin-1:before { content: '\e81d'; } /* '' */
+.icon-ok:before { content: '\e81f'; } /* '' */
+.icon-cancel:before { content: '\e81e'; } /* '' */
+.icon-comment-alt:before { content: '\e820'; } /* '' */
+.icon-left-open-1:before { content: '\e824'; } /* '' */
+.icon-right-open-1:before { content: '\e823'; } /* '' */
+.icon-left-circle:before { content: '\e822'; } /* '' */
+.icon-flickr:before { content: '\e811'; } /* '' */
